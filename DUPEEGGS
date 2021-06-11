@@ -1,0 +1,4 @@
+local Item = "Egg"
+local amount = 1.9
+local price = 100000
+game:GetService("ReplicatedStorage").Events.SubmitTrade:FireServer(Item, amount, price)
